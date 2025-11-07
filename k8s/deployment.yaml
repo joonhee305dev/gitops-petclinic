@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: 966391709212.dkr.ecr.ap-northeast-1.amazonaws.com/eks-user16-repo:9cd20236168a3b888b4c0ef2475e7a225ae5bf65
+          image: 966391709212.dkr.ecr.ap-northeast-1.amazonaws.com/eks-user16-repo:de61587d5f842fd28d3c1b7f3b20854197667c86
           ports:
             - containerPort: 8080
           resources:
