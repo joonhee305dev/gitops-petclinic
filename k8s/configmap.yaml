@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: petclinic-config # 1단계에서 참조한 이름
+data:
+  # 모든 값은 문자열이어야 합니다.
+  SPRING_PROFILES_ACTIVE: "mysql"
+  SERVER_PORT: "8080"
