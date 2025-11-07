@@ -33,6 +33,9 @@ env:
 # 빌드 작업 정의  
 jobs:
   build:
+    permissions:
+      contents: write # 깃 리포지토리에 push할 수 있는 권한 부여
+    
     runs-on: ubuntu-latest  #  build 작업이 정의되며 작업은 최신 버전의 Ubuntu 환경에서 실행됨
     steps:
     # 레포지토리의 코드를 체크아웃합니다.
